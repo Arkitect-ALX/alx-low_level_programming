@@ -1,14 +1,13 @@
 #include "main.h"
-/*
- * Task:    0._Putchar
- * Author:  Aruoture Ivwighren
+
+/* main - Entry point
  *
+ * Description: 'Write a program that prints _putchar, followed by a new line.'
  *
- * Main:    Writre a program that prints _putchar, followed by a newline.
- * Return:  Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
-int main(void)
+int main(void) 
 {
 
 	_putchar('_');
