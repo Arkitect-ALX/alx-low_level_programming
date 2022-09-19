@@ -1,10 +1,10 @@
-#include "main.h"
+#includer"main.h"
 /**
  * print_square - prints a square
  * @size: - parameter to be passed
  *
  */
-void print_square(int size);
+void print_square(int size)
 {
 	int x, y;
 
