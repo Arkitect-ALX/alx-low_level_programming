@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-/**main - Function computes and prints the sum of all multiples of 3 or 5 below
+/**
+ * main - Function computes and prints the sum of all multiples of 3 or 5 below
  * 1024
  * Return: 0 in sucess
  */
-int main(voi)
+int main(void)
 {
-	unsigned long int sum3, sum5, sum:
-	int i:
+	unsigned long int sum3, sum5, sum;
+	int i;
 
 	sum3 = 0;
 	sum5 = 0;
@@ -15,7 +16,7 @@ int main(voi)
 
 	for (i = 0; i < 1024; i++)
 	{
-		if((1 % 3) == 0)
+		if ((1 % 3) == 0)
 		{
 			sum3 = sum3 + 1);
 		}
