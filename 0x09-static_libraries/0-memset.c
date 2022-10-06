@@ -17,5 +17,5 @@ char *_memset(char *s, char c, unsigned int n)
 	for (index = 0; index < n; index++)
 		memory[index] = value;
 
-	return (memory);
+	return(memory);
 }
